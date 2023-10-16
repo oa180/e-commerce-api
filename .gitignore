@@ -1,0 +1,13 @@
+# Ignore env File
+config.env
+
+# Ignore Logs Files
+logs
+
+# Ignore Prettier & Eslint
+.prettierrc
+.eslintrc.json
+
+# Ignore node_modules Folder
+node_modules
+package-lock.json

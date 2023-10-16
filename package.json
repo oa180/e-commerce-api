@@ -1,0 +1,47 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "This is an e-commerce api to be integreated with any e-commerce website",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start:dev": "nodemon server.mjs",
+    "start:prod": "NODE_ENV=production nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oa180/e-commerce-api.git"
+  },
+  "author": "Omar Abd El-Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oa180/e-commerce-api/issues"
+  },
+  "homepage": "https://github.com/oa180/e-commerce-api#readme",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "argon2": "^0.31.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.5",
+    "util": "^0.12.5",
+    "validator": "^13.11.0"
+  }
+}
