@@ -8,7 +8,7 @@ import {
   createNewProduct,
   updateOneProduct,
   deleteProduct,
-} from '../controllers/ProductController.js';
+} from '../controllers/productController.js';
 import { authenticate } from '../controllers/authController.js';
 
 // Router App
